@@ -1,0 +1,51 @@
+<!-- 
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-A single unordered list with an id of results. All the arrays you have checked so far (until you refresh the page) will appear in this list as list items. 
+Each item in the list will alternate the text colors starting with green, then red, then green, then red etc.
+
+Your page will have a form with the following:
+-A label with a for attribute referencing your input
+-A input with a name and type of text
+-A button to submit the form
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Array Sort</title>
+   <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+   <header>
+      <h1>Array Sort</h1>
+   </header>
+   <h2>^^^super big</h2>
+   <p>Please enter in [1,2,3],[1,2,3] format</p>
+   <form method="POST" id="myForm" class = "myForm">
+      <label class ="formLabel" for = "text_input">
+         Enter Text:
+         <input type="text" id="text_input" name = "array_input"/>
+         <button type="submit">BIG SUBMIT</button>
+      </label>
+   </form>
+
+   <ul id='results'></ul>
+
+   <div id="error-container"  hidden="true"  display: none>
+      <div class="text-goes-here">
+          </div>
+  </div>
+   <footer>
+      <ul class = "myInfo">
+         <li>Name: Kuo Zhang</li>
+         <li>CWID: 14078257</li>
+         <li>I dunno what ima doing here</li>
+      </ul>
+   </footer>
+
+   <script src='../public/js/main.js'></script>
+</body>
+</html>

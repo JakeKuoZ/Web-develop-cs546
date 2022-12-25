@@ -1,0 +1,36 @@
+{{! 
+This page will be rendered when the following route is hit: GET http://localhost:3000/peopledetails/:id
+This page will respond with a valid HTML document. The title of the document should be "people Found". 
+You should have the title set as the <title> element of the HTML document and as an h1 in your document. In an h2 element, 
+you will print the name of the people found.
+Your page should reference a CSS file, /public/main-styles.css; 
+with at least 10 rulesets that apply to this page; these 10 rules can also apply to elements on /, or be unique to this page.
+
+You should have a main element, and inside of the main element have a dl tag that has a definition list of all the properties of the matching people in the format shown in the lab assignment.
+}}
+
+<main>
+  <h1>
+    {{title}}
+  </h1>
+  <h2>
+    {{people.name}}
+  </h2>
+  <dl>
+    <dt>ID</dt>
+    <dd>{{people.id}}</dd>
+    <dt>First Name</dt>
+    <dd>{{people.firstName}}</dd>
+    <dt>Last Name</dt>
+    <dd>{{people.lastName}}</dd>
+    <dt>Address</dt>
+    <dd>{{people.address}}</dd>
+    <dt>Zip Code</dt>
+    <dd>{{people.zip}}</dd>
+    <dt>Phone</dt>
+    <dd>{{people.phone}}</dd>
+    <dt>Social Security Number</dt>
+    <dd>{{people.ssn}}</dd>
+  </dl>
+  <a href="/">Make another search</a>
+</main>

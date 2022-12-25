@@ -1,0 +1,7 @@
+
+{
+    "mongoConfig": {
+      "serverUrl": "mongodb://localhost:27017/",
+      "database": "Kuo_Zhang_Lab_6"
+    }
+  }

@@ -1,0 +1,70 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. 
+You will place the CSS in its own file. You must style the is-green class to make text have a color of #00E676 and is-red class to make text have a color of #FF3D00.
+*/
+.is-red {
+    color: #FF3D00;
+}
+
+.is-green {
+    color: #00E676;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+h1 {
+    text-decoration: underline;
+    color:darkslategrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+
+#results{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: darkgray;
+}
+
+
+.text-goes-here {
+    color:crimson;
+}
+
+
+p{
+    color: black;
+    font-family: "Marker Felt", fantasy;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+label{
+    font-family:"OCR A Std" , monospace;
+}
+
+.formLabel{
+    color: aquamarine;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    font-family: "OCR A Std" , monospace;
+    padding: 100px 100px;
+}
+
+.myInfo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
